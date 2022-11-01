@@ -1,0 +1,301 @@
+
+*
+{
+    padding: 0;
+    margin:0;                  
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+#sec1
+{
+    background-image:url(zomatopic/sec1bg.jpg) ;
+    background-size:cover ;            
+    background-repeat: no-repeat;
+    padding-bottom:7%;
+}
+
+
+#nav1
+{
+    display: flex;
+    width: 100%;
+    padding-top: 20px;
+    font-size: 110%;
+    justify-content: space-around;
+}
+
+#sec1divright ul,#sec1divleft ul
+{
+    /* background-color: azure; */
+    display: flex;  
+    font-family: 'Poppins', sans-serif;
+    gap: 02rem;
+}
+
+#sec1divleft ul
+{
+    font-size: 14px;
+}
+
+#sec1divleft ul li a,#sec1divright ul li a
+{
+    color: white;
+}
+
+#zomato
+{
+    display:flex;
+    justify-content:center;
+    margin-top: 2.5%; 
+}
+
+#zomato img
+{
+    height: 120px;
+}
+
+#discover
+{
+    color: white;
+    font-size: 21px;
+    text-align: center;
+    /* font-family: 'Poppins', sans-serif; */
+    letter-spacing: 2px;
+}
+
+#sec1div3
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+#sec1div3 select
+{
+    padding: 10px;
+    width: 15%; 
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color:gray;
+}
+
+#sec1div3 input
+{
+    width: 35%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;    
+}
+
+#sec1div3 select,#sec1div3 input
+{
+    height:55px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: none;
+    border: none;
+}
+
+#sec2
+{
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-between;
+    padding-left:14%;
+    padding-right:14%;
+    padding-top: 2.5%;
+    padding-bottom: 5%;
+}
+
+#sec2a1,#sec2a2,#sec2a3
+{
+    height: 12rem;
+    width: 22rem;
+    border-radius: 1rem;
+}
+
+#sec2a1
+{
+    background-image: url(zomatopic/sec2img1);
+    background-position:50%;
+    background-size: cover;
+}
+
+#sec2a2
+{
+    background-image: url(zomatopic/sec2img2);
+    background-position:50%;
+    background-size: cover;
+}
+
+#sec2a3
+{
+    background-image: url(zomatopic/sec2img3);
+    background-position:50%;
+    background-size: cover;
+}
+
+.sec2div
+{
+    color: rgb(59, 54, 54);
+    background-color:white;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    padding: 4%;
+    padding-left: 5%;
+    font-family: 'Poppins', sans-serif;
+    transform: translateY(195%);
+}
+
+#sec2a1:hover,#sec2a2:hover,#sec2a3:hover
+{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+#sec3
+{
+    display: flex;
+    justify-content: space-between;
+    padding-left:14%;
+    padding-right:14%;
+    font-family: 'Poppins', sans-serif;
+}
+
+#sec3 div h1
+{
+   font-size: 200%;
+   letter-spacing: 1px;
+   color: rgb(29, 27, 27);
+}
+
+#sec3 div p
+{
+    font-size: 105%;
+    letter-spacing: 0.2px;
+    color: rgb(29, 27, 27);
+}
+
+#sec3 div a p
+{
+    color: red;  
+    transform: translateY(185%);
+}
+
+#sec4
+{
+    display: flex;
+    justify-content: space-between;
+    padding-left:14%;
+    padding-right:14%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#sec4 a div
+{
+    height: 20rem;
+    width: 16.6rem;
+    border-radius: 0.5rem;
+    background-size: cover;
+    box-shadow: inset 0 0 100px black;  
+}
+
+#sec4 a div p
+
+.myspecialfontstyle
+{   color: white;
+    font-family: 'Poppins', sans-serif;
+    transform: translateY(1100%);
+    padding-left: 5%;
+    font-size: 16px;
+}
+
+#sec4div1
+{
+    background-image: url(zomatopic/sec4img1);  
+}
+
+#sec4div2
+{
+    background-image: url(zomatopic/sec4img2);
+}
+it
+#sec4div3
+{
+    background-image: url(zomatopic/sec4img3);
+}
+
+#sec4div4
+{
+    background-image: url(zomatopic/sec4img4);
+}
+
+#sec5
+{
+    padding-left: 14%;
+    padding-right: 14%;
+    padding-top: 5%;
+}
+
+#sec5div
+{
+    font-size: 215%;
+    padding-bottom: 2%;
+    color: rgb(43, 39, 39);
+}
+
+#sec5div1,#sec5div2,#sec5div3,#sec5div4,#sec5div5,#sec5div6,#sec5div7,#sec5div8,#sec5div9,#sec5div10
+
+
+.flexjustify
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+}
+
+.flexjustifysmall
+300 
+.flexjustifylarge
+400
+
+#sec5div1 a,#sec5div2 a,#sec5div3 a,#sec5div4 a,#sec5div5 a,#sec5div6 a,#sec5div7 a,#sec5div8 a,#sec5div9 a,#sec5div10 a
+{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    height: 55px;
+    width: 325px;
+    padding:1%;
+    padding-left:15px;
+    margin-bottom: 1%;
+    line-height: 30px;
+    color: rgb(43, 39, 39);
+    border:1px solid rgb(227, 217, 217);
+    border-radius: 10px;
+}
+
+.sec5divi
+{
+    padding-top:4.5% ;
+}
+
+.sec5divp1
+{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: black;
+    /* font-weight:600 !important; */
+}
+
+
+
+
+
+
+
+
+    

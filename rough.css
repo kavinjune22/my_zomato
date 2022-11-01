@@ -1,0 +1,38 @@
+*
+{
+    font-size: 135%;
+}
+
+#sentences p
+{
+    margin:10px;
+    animation: animate 5s ease-in-out infinite;
+}
+
+#sentences
+{
+    height:65px;
+    overflow: hidden;
+    border: 1px solid red;
+}
+
+  
+  @keyframes animate {
+    18%{transform: translateY(-82px);}
+
+    38%{transform: translateY(-154px);}
+
+    66%{transform: translateY(-278px);}
+
+    80%{transform: translateY(-496px);}
+
+    100%{transform: translateY(-992px);}
+
+  }
+
+  #ez
+  {
+    border: 1px solid blue;
+    padding: 1px;
+  }
+
