@@ -248,19 +248,11 @@ it
 }
 
 #sec5div1,#sec5div2,#sec5div3,#sec5div4,#sec5div5,#sec5div6,#sec5div7,#sec5div8,#sec5div9,#sec5div10
-
-
-.flexjustify
 {
     display: flex;
     justify-content: space-between;
     padding-top: 1%;
 }
-
-.flexjustifysmall
-300 
-.flexjustifylarge
-400
 
 #sec5div1 a,#sec5div2 a,#sec5div3 a,#sec5div4 a,#sec5div5 a,#sec5div6 a,#sec5div7 a,#sec5div8 a,#sec5div9 a,#sec5div10 a
 {
